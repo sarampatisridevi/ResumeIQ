@@ -22,5 +22,18 @@ Node.js v18 or higher (LTS recommended)
 MongoDB running locally, or a free MongoDB Atlas cluster
 Ollama for the free local AI model (or an API key from any OpenAI-compatible provider)
 
+Set up the frontend
+cd client
+npm install
+npm run dev
 
+Set up the backend
+cd server
+npm install
+npm run dev
+
+🙌 Acknowledgements
+Ollama for making local LLMs simple
+Meta Llama for the open model
+pdf-parse for PDF text extraction
 
